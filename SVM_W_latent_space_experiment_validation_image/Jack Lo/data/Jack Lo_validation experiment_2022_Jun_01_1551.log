@@ -1,0 +1,1055 @@
+1.5320 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+67.8624 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+75.2558 	DATA 	Mouse: Left button down, pos=(844,657)
+75.2623 	DATA 	Mouse:  Left button up, pos=(1350,955)
+75.4244 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002885A9DD9E8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002885AA370F0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+75.4251 	EXP 	window1: mouseVisible = True
+75.4251 	EXP 	window1: recordFrameIntervals = False
+75.4919 	EXP 	window1: recordFrameIntervals = True
+75.5686 	EXP 	window1: recordFrameIntervals = False
+76.3398 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=200.0)
+76.3984 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.5)
+76.4235 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.5)
+76.4267 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([-0.6,  0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+76.4531 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+76.4582 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0.5, 0. ]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+76.4817 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([-0.5, -0.4]), rgb=UNKNOWN, text="'Q' for Left is Cuter", units='height', win=Window(...), wrapWidth=1)
+76.4904 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([-0.4,  0.4]), rgb=UNKNOWN, text='/60', units='height', win=Window(...), wrapWidth=1)
+76.5014 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_8', opacity=1, ori=0.0, pos=array([ 0.5, -0.4]), rgb=UNKNOWN, text="'P' for Right is Cuter", units='height', win=Window(...), wrapWidth=1)
+76.5180 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='Arabic', name='text_7', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thanks for your participation!', units='height', win=Window(...), wrapWidth=1)
+76.5594 	EXP 	text: autoDraw = True
+78.8287 	DATA 	Keypress: space
+78.8328 	EXP 	text: autoDraw = False
+78.8328 	EXP 	text_2: autoDraw = True
+80.5422 	DATA 	Keypress: space
+80.5458 	EXP 	text_2: autoDraw = False
+80.5458 	EXP 	text_3: autoDraw = True
+86.6919 	DATA 	Keypress: space
+86.7260 	EXP 	Imported Condition.xlsx as conditions, 60 conditions, 4 params
+86.7287 	EXP 	Created sequence: sequential, trialTypes=60, nReps=1, seed=None
+86.7292 	EXP 	New trial (rep=0, index=0): {'trial_nums': 0, 'img1': 'original image/flickr_cat_000034.png', 'img2': 'style transformed image/flickr_cat_000034_make_cuter.png', 'style_transformed': 'make_cuter'}
+86.8673 	EXP 	text_3: autoDraw = False
+86.8673 	EXP 	text_4: text = 0
+86.8673 	EXP 	image: image = 'original image/flickr_cat_000034.png'
+86.8673 	EXP 	image_2: image = 'style transformed image/flickr_cat_000034_make_cuter.png'
+86.8673 	EXP 	text_4: autoDraw = True
+86.8673 	EXP 	image: autoDraw = True
+86.8673 	EXP 	image_2: autoDraw = True
+86.8673 	EXP 	text_5: autoDraw = True
+86.8673 	EXP 	text_6: autoDraw = True
+86.8673 	EXP 	text_8: autoDraw = True
+111.3385 	DATA 	Keypress: p
+111.3523 	EXP 	New trial (rep=0, index=1): {'trial_nums': 1, 'img1': 'original image/flickr_cat_000209.png', 'img2': 'style transformed image/flickr_cat_000209_make_uglier.png', 'style_transformed': 'make_uglier'}
+111.4434 	EXP 	text_4: autoDraw = False
+111.4434 	EXP 	image: autoDraw = False
+111.4434 	EXP 	image_2: autoDraw = False
+111.4434 	EXP 	text_5: autoDraw = False
+111.4434 	EXP 	text_6: autoDraw = False
+111.4434 	EXP 	text_8: autoDraw = False
+111.4434 	EXP 	text_4: text = 1
+111.4434 	EXP 	image: image = 'original image/flickr_cat_000209.png'
+111.4434 	EXP 	image_2: image = 'style transformed image/flickr_cat_000209_make_uglier.png'
+111.4434 	EXP 	text_4: autoDraw = True
+111.4434 	EXP 	image: autoDraw = True
+111.4434 	EXP 	image_2: autoDraw = True
+111.4434 	EXP 	text_5: autoDraw = True
+111.4434 	EXP 	text_6: autoDraw = True
+111.4434 	EXP 	text_8: autoDraw = True
+124.2280 	DATA 	Keypress: p
+124.2380 	EXP 	New trial (rep=0, index=2): {'trial_nums': 2, 'img1': 'original image/flickr_cat_000470.png', 'img2': 'style transformed image/flickr_cat_000470_make_cuter.png', 'style_transformed': 'make_cuter'}
+124.3262 	EXP 	text_4: autoDraw = False
+124.3262 	EXP 	image: autoDraw = False
+124.3262 	EXP 	image_2: autoDraw = False
+124.3262 	EXP 	text_5: autoDraw = False
+124.3262 	EXP 	text_6: autoDraw = False
+124.3262 	EXP 	text_8: autoDraw = False
+124.3262 	EXP 	text_4: text = 2
+124.3262 	EXP 	image: image = 'original image/flickr_cat_000470.png'
+124.3262 	EXP 	image_2: image = 'style transformed image/flickr_cat_000470_make_cuter.png'
+124.3262 	EXP 	text_4: autoDraw = True
+124.3262 	EXP 	image: autoDraw = True
+124.3262 	EXP 	image_2: autoDraw = True
+124.3262 	EXP 	text_5: autoDraw = True
+124.3262 	EXP 	text_6: autoDraw = True
+124.3262 	EXP 	text_8: autoDraw = True
+126.0741 	EXP 	New trial (rep=0, index=3): {'trial_nums': 3, 'img1': 'original image/flickr_cat_000684.png', 'img2': 'style transformed image/flickr_cat_000684_make_uglier.png', 'style_transformed': 'make_uglier'}
+126.1481 	DATA 	Keypress: p
+126.1523 	EXP 	text_4: autoDraw = False
+126.1523 	EXP 	image: autoDraw = False
+126.1523 	EXP 	image_2: autoDraw = False
+126.1523 	EXP 	text_5: autoDraw = False
+126.1523 	EXP 	text_6: autoDraw = False
+126.1523 	EXP 	text_8: autoDraw = False
+126.1523 	EXP 	text_4: text = 3
+126.1523 	EXP 	image: image = 'original image/flickr_cat_000684.png'
+126.1523 	EXP 	image_2: image = 'style transformed image/flickr_cat_000684_make_uglier.png'
+126.1523 	EXP 	text_4: autoDraw = True
+126.1523 	EXP 	image: autoDraw = True
+126.1523 	EXP 	image_2: autoDraw = True
+126.1523 	EXP 	text_5: autoDraw = True
+126.1523 	EXP 	text_6: autoDraw = True
+126.1523 	EXP 	text_8: autoDraw = True
+128.7851 	DATA 	Keypress: q
+128.7952 	EXP 	New trial (rep=0, index=4): {'trial_nums': 4, 'img1': 'original image/flickr_cat_000819.png', 'img2': 'style transformed image/flickr_cat_000819_make_cuter.png', 'style_transformed': 'make_cuter'}
+128.8714 	EXP 	text_4: autoDraw = False
+128.8714 	EXP 	image: autoDraw = False
+128.8714 	EXP 	image_2: autoDraw = False
+128.8714 	EXP 	text_5: autoDraw = False
+128.8714 	EXP 	text_6: autoDraw = False
+128.8714 	EXP 	text_8: autoDraw = False
+128.8714 	EXP 	text_4: text = 4
+128.8714 	EXP 	image: image = 'original image/flickr_cat_000819.png'
+128.8714 	EXP 	image_2: image = 'style transformed image/flickr_cat_000819_make_cuter.png'
+128.8714 	EXP 	text_4: autoDraw = True
+128.8714 	EXP 	image: autoDraw = True
+128.8714 	EXP 	image_2: autoDraw = True
+128.8714 	EXP 	text_5: autoDraw = True
+128.8714 	EXP 	text_6: autoDraw = True
+128.8714 	EXP 	text_8: autoDraw = True
+131.0494 	EXP 	New trial (rep=0, index=5): {'trial_nums': 5, 'img1': 'original image/pixabay_cat_000041.png', 'img2': 'style transformed image/pixabay_cat_000041_make_uglier.png', 'style_transformed': 'make_uglier'}
+131.1210 	DATA 	Keypress: p
+131.1255 	EXP 	text_4: autoDraw = False
+131.1255 	EXP 	image: autoDraw = False
+131.1255 	EXP 	image_2: autoDraw = False
+131.1255 	EXP 	text_5: autoDraw = False
+131.1255 	EXP 	text_6: autoDraw = False
+131.1255 	EXP 	text_8: autoDraw = False
+131.1255 	EXP 	text_4: text = 5
+131.1255 	EXP 	image: image = 'original image/pixabay_cat_000041.png'
+131.1255 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000041_make_uglier.png'
+131.1255 	EXP 	text_4: autoDraw = True
+131.1255 	EXP 	image: autoDraw = True
+131.1255 	EXP 	image_2: autoDraw = True
+131.1255 	EXP 	text_5: autoDraw = True
+131.1255 	EXP 	text_6: autoDraw = True
+131.1255 	EXP 	text_8: autoDraw = True
+133.4258 	DATA 	Keypress: p
+133.4353 	EXP 	New trial (rep=0, index=6): {'trial_nums': 6, 'img1': 'original image/pixabay_cat_000127.png', 'img2': 'style transformed image/pixabay_cat_000127_make_uglier.png', 'style_transformed': 'make_uglier'}
+133.5075 	EXP 	text_4: autoDraw = False
+133.5075 	EXP 	image: autoDraw = False
+133.5075 	EXP 	image_2: autoDraw = False
+133.5075 	EXP 	text_5: autoDraw = False
+133.5075 	EXP 	text_6: autoDraw = False
+133.5075 	EXP 	text_8: autoDraw = False
+133.5075 	EXP 	text_4: text = 6
+133.5075 	EXP 	image: image = 'original image/pixabay_cat_000127.png'
+133.5075 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000127_make_uglier.png'
+133.5075 	EXP 	text_4: autoDraw = True
+133.5075 	EXP 	image: autoDraw = True
+133.5075 	EXP 	image_2: autoDraw = True
+133.5075 	EXP 	text_5: autoDraw = True
+133.5075 	EXP 	text_6: autoDraw = True
+133.5075 	EXP 	text_8: autoDraw = True
+135.4828 	DATA 	Keypress: q
+135.4927 	EXP 	New trial (rep=0, index=7): {'trial_nums': 7, 'img1': 'original image/pixabay_cat_000223.png', 'img2': 'style transformed image/pixabay_cat_000223_make_cuter.png', 'style_transformed': 'make_cuter'}
+135.5648 	EXP 	text_4: autoDraw = False
+135.5648 	EXP 	image: autoDraw = False
+135.5648 	EXP 	image_2: autoDraw = False
+135.5648 	EXP 	text_5: autoDraw = False
+135.5648 	EXP 	text_6: autoDraw = False
+135.5648 	EXP 	text_8: autoDraw = False
+135.5648 	EXP 	text_4: text = 7
+135.5648 	EXP 	image: image = 'original image/pixabay_cat_000223.png'
+135.5648 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000223_make_cuter.png'
+135.5648 	EXP 	text_4: autoDraw = True
+135.5648 	EXP 	image: autoDraw = True
+135.5648 	EXP 	image_2: autoDraw = True
+135.5648 	EXP 	text_5: autoDraw = True
+135.5648 	EXP 	text_6: autoDraw = True
+135.5648 	EXP 	text_8: autoDraw = True
+137.3625 	DATA 	Keypress: p
+137.3723 	EXP 	New trial (rep=0, index=8): {'trial_nums': 8, 'img1': 'original image/pixabay_cat_000258.png', 'img2': 'style transformed image/pixabay_cat_000258_make_cuter.png', 'style_transformed': 'make_cuter'}
+137.4576 	EXP 	text_4: autoDraw = False
+137.4576 	EXP 	image: autoDraw = False
+137.4576 	EXP 	image_2: autoDraw = False
+137.4576 	EXP 	text_5: autoDraw = False
+137.4576 	EXP 	text_6: autoDraw = False
+137.4576 	EXP 	text_8: autoDraw = False
+137.4576 	EXP 	text_4: text = 8
+137.4576 	EXP 	image: image = 'original image/pixabay_cat_000258.png'
+137.4576 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000258_make_cuter.png'
+137.4576 	EXP 	text_4: autoDraw = True
+137.4576 	EXP 	image: autoDraw = True
+137.4576 	EXP 	image_2: autoDraw = True
+137.4576 	EXP 	text_5: autoDraw = True
+137.4576 	EXP 	text_6: autoDraw = True
+137.4576 	EXP 	text_8: autoDraw = True
+141.8580 	EXP 	New trial (rep=0, index=9): {'trial_nums': 9, 'img1': 'original image/pixabay_cat_000262.png', 'img2': 'style transformed image/pixabay_cat_000262_make_cuter.png', 'style_transformed': 'make_cuter'}
+141.9257 	DATA 	Keypress: p
+141.9301 	EXP 	text_4: autoDraw = False
+141.9301 	EXP 	image: autoDraw = False
+141.9301 	EXP 	image_2: autoDraw = False
+141.9301 	EXP 	text_5: autoDraw = False
+141.9301 	EXP 	text_6: autoDraw = False
+141.9301 	EXP 	text_8: autoDraw = False
+141.9301 	EXP 	text_4: text = 9
+141.9301 	EXP 	image: image = 'original image/pixabay_cat_000262.png'
+141.9301 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000262_make_cuter.png'
+141.9301 	EXP 	text_4: autoDraw = True
+141.9301 	EXP 	image: autoDraw = True
+141.9301 	EXP 	image_2: autoDraw = True
+141.9301 	EXP 	text_5: autoDraw = True
+141.9301 	EXP 	text_6: autoDraw = True
+141.9301 	EXP 	text_8: autoDraw = True
+143.2273 	DATA 	Keypress: p
+143.2364 	EXP 	New trial (rep=0, index=10): {'trial_nums': 10, 'img1': 'original image/pixabay_cat_000337.png', 'img2': 'style transformed image/pixabay_cat_000337_make_uglier.png', 'style_transformed': 'make_uglier'}
+143.3114 	EXP 	text_4: autoDraw = False
+143.3114 	EXP 	image: autoDraw = False
+143.3114 	EXP 	image_2: autoDraw = False
+143.3114 	EXP 	text_5: autoDraw = False
+143.3114 	EXP 	text_6: autoDraw = False
+143.3114 	EXP 	text_8: autoDraw = False
+143.3114 	EXP 	text_4: text = 10
+143.3114 	EXP 	image: image = 'original image/pixabay_cat_000337.png'
+143.3114 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000337_make_uglier.png'
+143.3114 	EXP 	text_4: autoDraw = True
+143.3114 	EXP 	image: autoDraw = True
+143.3114 	EXP 	image_2: autoDraw = True
+143.3114 	EXP 	text_5: autoDraw = True
+143.3114 	EXP 	text_6: autoDraw = True
+143.3114 	EXP 	text_8: autoDraw = True
+145.4153 	DATA 	Keypress: q
+145.4257 	EXP 	New trial (rep=0, index=11): {'trial_nums': 11, 'img1': 'original image/pixabay_cat_000368.png', 'img2': 'style transformed image/pixabay_cat_000368_make_cuter.png', 'style_transformed': 'make_cuter'}
+145.4971 	EXP 	text_4: autoDraw = False
+145.4971 	EXP 	image: autoDraw = False
+145.4971 	EXP 	image_2: autoDraw = False
+145.4971 	EXP 	text_5: autoDraw = False
+145.4971 	EXP 	text_6: autoDraw = False
+145.4971 	EXP 	text_8: autoDraw = False
+145.4971 	EXP 	text_4: text = 11
+145.4971 	EXP 	image: image = 'original image/pixabay_cat_000368.png'
+145.4971 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000368_make_cuter.png'
+145.4971 	EXP 	text_4: autoDraw = True
+145.4971 	EXP 	image: autoDraw = True
+145.4971 	EXP 	image_2: autoDraw = True
+145.4971 	EXP 	text_5: autoDraw = True
+145.4971 	EXP 	text_6: autoDraw = True
+145.4971 	EXP 	text_8: autoDraw = True
+146.5655 	DATA 	Keypress: p
+146.5752 	EXP 	New trial (rep=0, index=12): {'trial_nums': 12, 'img1': 'original image/pixabay_cat_000475.png', 'img2': 'style transformed image/pixabay_cat_000475_make_uglier.png', 'style_transformed': 'make_uglier'}
+146.6476 	EXP 	text_4: autoDraw = False
+146.6476 	EXP 	image: autoDraw = False
+146.6476 	EXP 	image_2: autoDraw = False
+146.6476 	EXP 	text_5: autoDraw = False
+146.6476 	EXP 	text_6: autoDraw = False
+146.6476 	EXP 	text_8: autoDraw = False
+146.6476 	EXP 	text_4: text = 12
+146.6476 	EXP 	image: image = 'original image/pixabay_cat_000475.png'
+146.6476 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000475_make_uglier.png'
+146.6476 	EXP 	text_4: autoDraw = True
+146.6476 	EXP 	image: autoDraw = True
+146.6476 	EXP 	image_2: autoDraw = True
+146.6476 	EXP 	text_5: autoDraw = True
+146.6476 	EXP 	text_6: autoDraw = True
+146.6476 	EXP 	text_8: autoDraw = True
+147.7193 	EXP 	New trial (rep=0, index=13): {'trial_nums': 13, 'img1': 'original image/pixabay_cat_000548.png', 'img2': 'style transformed image/pixabay_cat_000548_make_cuter.png', 'style_transformed': 'make_cuter'}
+147.7897 	DATA 	Keypress: p
+147.7939 	EXP 	text_4: autoDraw = False
+147.7939 	EXP 	image: autoDraw = False
+147.7939 	EXP 	image_2: autoDraw = False
+147.7939 	EXP 	text_5: autoDraw = False
+147.7939 	EXP 	text_6: autoDraw = False
+147.7939 	EXP 	text_8: autoDraw = False
+147.7939 	EXP 	text_4: text = 13
+147.7939 	EXP 	image: image = 'original image/pixabay_cat_000548.png'
+147.7939 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000548_make_cuter.png'
+147.7939 	EXP 	text_4: autoDraw = True
+147.7939 	EXP 	image: autoDraw = True
+147.7939 	EXP 	image_2: autoDraw = True
+147.7939 	EXP 	text_5: autoDraw = True
+147.7939 	EXP 	text_6: autoDraw = True
+147.7939 	EXP 	text_8: autoDraw = True
+148.7483 	DATA 	Keypress: p
+148.7586 	EXP 	New trial (rep=0, index=14): {'trial_nums': 14, 'img1': 'original image/pixabay_cat_000685.png', 'img2': 'style transformed image/pixabay_cat_000685_make_cuter.png', 'style_transformed': 'make_cuter'}
+148.8311 	EXP 	text_4: autoDraw = False
+148.8311 	EXP 	image: autoDraw = False
+148.8311 	EXP 	image_2: autoDraw = False
+148.8311 	EXP 	text_5: autoDraw = False
+148.8311 	EXP 	text_6: autoDraw = False
+148.8311 	EXP 	text_8: autoDraw = False
+148.8311 	EXP 	text_4: text = 14
+148.8311 	EXP 	image: image = 'original image/pixabay_cat_000685.png'
+148.8311 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000685_make_cuter.png'
+148.8311 	EXP 	text_4: autoDraw = True
+148.8311 	EXP 	image: autoDraw = True
+148.8311 	EXP 	image_2: autoDraw = True
+148.8311 	EXP 	text_5: autoDraw = True
+148.8311 	EXP 	text_6: autoDraw = True
+148.8311 	EXP 	text_8: autoDraw = True
+149.7159 	DATA 	Keypress: p
+149.7269 	EXP 	New trial (rep=0, index=15): {'trial_nums': 15, 'img1': 'original image/pixabay_cat_000822.png', 'img2': 'style transformed image/pixabay_cat_000822_make_cuter.png', 'style_transformed': 'make_cuter'}
+149.8002 	EXP 	text_4: autoDraw = False
+149.8002 	EXP 	image: autoDraw = False
+149.8002 	EXP 	image_2: autoDraw = False
+149.8002 	EXP 	text_5: autoDraw = False
+149.8002 	EXP 	text_6: autoDraw = False
+149.8002 	EXP 	text_8: autoDraw = False
+149.8002 	EXP 	text_4: text = 15
+149.8002 	EXP 	image: image = 'original image/pixabay_cat_000822.png'
+149.8002 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000822_make_cuter.png'
+149.8002 	EXP 	text_4: autoDraw = True
+149.8002 	EXP 	image: autoDraw = True
+149.8002 	EXP 	image_2: autoDraw = True
+149.8002 	EXP 	text_5: autoDraw = True
+149.8002 	EXP 	text_6: autoDraw = True
+149.8002 	EXP 	text_8: autoDraw = True
+150.6727 	DATA 	Keypress: p
+150.6826 	EXP 	New trial (rep=0, index=16): {'trial_nums': 16, 'img1': 'original image/pixabay_cat_000870.png', 'img2': 'style transformed image/pixabay_cat_000870_make_uglier.png', 'style_transformed': 'make_uglier'}
+150.7581 	EXP 	text_4: autoDraw = False
+150.7581 	EXP 	image: autoDraw = False
+150.7581 	EXP 	image_2: autoDraw = False
+150.7581 	EXP 	text_5: autoDraw = False
+150.7581 	EXP 	text_6: autoDraw = False
+150.7581 	EXP 	text_8: autoDraw = False
+150.7581 	EXP 	text_4: text = 16
+150.7581 	EXP 	image: image = 'original image/pixabay_cat_000870.png'
+150.7581 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000870_make_uglier.png'
+150.7581 	EXP 	text_4: autoDraw = True
+150.7581 	EXP 	image: autoDraw = True
+150.7581 	EXP 	image_2: autoDraw = True
+150.7581 	EXP 	text_5: autoDraw = True
+150.7581 	EXP 	text_6: autoDraw = True
+150.7581 	EXP 	text_8: autoDraw = True
+151.7258 	DATA 	Keypress: q
+151.7351 	EXP 	New trial (rep=0, index=17): {'trial_nums': 17, 'img1': 'original image/pixabay_cat_000915.png', 'img2': 'style transformed image/pixabay_cat_000915_make_uglier.png', 'style_transformed': 'make_uglier'}
+151.8087 	EXP 	text_4: autoDraw = False
+151.8087 	EXP 	image: autoDraw = False
+151.8087 	EXP 	image_2: autoDraw = False
+151.8087 	EXP 	text_5: autoDraw = False
+151.8087 	EXP 	text_6: autoDraw = False
+151.8087 	EXP 	text_8: autoDraw = False
+151.8087 	EXP 	text_4: text = 17
+151.8087 	EXP 	image: image = 'original image/pixabay_cat_000915.png'
+151.8087 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000915_make_uglier.png'
+151.8087 	EXP 	text_4: autoDraw = True
+151.8087 	EXP 	image: autoDraw = True
+151.8087 	EXP 	image_2: autoDraw = True
+151.8087 	EXP 	text_5: autoDraw = True
+151.8087 	EXP 	text_6: autoDraw = True
+151.8087 	EXP 	text_8: autoDraw = True
+153.3147 	EXP 	New trial (rep=0, index=18): {'trial_nums': 18, 'img1': 'original image/pixabay_cat_000958.png', 'img2': 'style transformed image/pixabay_cat_000958_make_uglier.png', 'style_transformed': 'make_uglier'}
+153.3827 	DATA 	Keypress: q
+153.3867 	EXP 	text_4: autoDraw = False
+153.3867 	EXP 	image: autoDraw = False
+153.3867 	EXP 	image_2: autoDraw = False
+153.3867 	EXP 	text_5: autoDraw = False
+153.3867 	EXP 	text_6: autoDraw = False
+153.3867 	EXP 	text_8: autoDraw = False
+153.3867 	EXP 	text_4: text = 18
+153.3867 	EXP 	image: image = 'original image/pixabay_cat_000958.png'
+153.3867 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000958_make_uglier.png'
+153.3867 	EXP 	text_4: autoDraw = True
+153.3867 	EXP 	image: autoDraw = True
+153.3867 	EXP 	image_2: autoDraw = True
+153.3867 	EXP 	text_5: autoDraw = True
+153.3867 	EXP 	text_6: autoDraw = True
+153.3867 	EXP 	text_8: autoDraw = True
+154.4762 	DATA 	Keypress: q
+154.4864 	EXP 	New trial (rep=0, index=19): {'trial_nums': 19, 'img1': 'original image/pixabay_cat_000976.png', 'img2': 'style transformed image/pixabay_cat_000976_make_cuter.png', 'style_transformed': 'make_cuter'}
+154.5577 	EXP 	text_4: autoDraw = False
+154.5577 	EXP 	image: autoDraw = False
+154.5577 	EXP 	image_2: autoDraw = False
+154.5577 	EXP 	text_5: autoDraw = False
+154.5577 	EXP 	text_6: autoDraw = False
+154.5577 	EXP 	text_8: autoDraw = False
+154.5577 	EXP 	text_4: text = 19
+154.5577 	EXP 	image: image = 'original image/pixabay_cat_000976.png'
+154.5577 	EXP 	image_2: image = 'style transformed image/pixabay_cat_000976_make_cuter.png'
+154.5577 	EXP 	text_4: autoDraw = True
+154.5577 	EXP 	image: autoDraw = True
+154.5577 	EXP 	image_2: autoDraw = True
+154.5577 	EXP 	text_5: autoDraw = True
+154.5577 	EXP 	text_6: autoDraw = True
+154.5577 	EXP 	text_8: autoDraw = True
+156.6012 	DATA 	Keypress: p
+156.6111 	EXP 	New trial (rep=0, index=20): {'trial_nums': 20, 'img1': 'original image/pixabay_cat_001067.png', 'img2': 'style transformed image/pixabay_cat_001067_make_cuter.png', 'style_transformed': 'make_cuter'}
+156.6811 	EXP 	text_4: autoDraw = False
+156.6811 	EXP 	image: autoDraw = False
+156.6811 	EXP 	image_2: autoDraw = False
+156.6811 	EXP 	text_5: autoDraw = False
+156.6811 	EXP 	text_6: autoDraw = False
+156.6811 	EXP 	text_8: autoDraw = False
+156.6811 	EXP 	text_4: text = 20
+156.6811 	EXP 	image: image = 'original image/pixabay_cat_001067.png'
+156.6811 	EXP 	image_2: image = 'style transformed image/pixabay_cat_001067_make_cuter.png'
+156.6811 	EXP 	text_4: autoDraw = True
+156.6811 	EXP 	image: autoDraw = True
+156.6811 	EXP 	image_2: autoDraw = True
+156.6811 	EXP 	text_5: autoDraw = True
+156.6811 	EXP 	text_6: autoDraw = True
+156.6811 	EXP 	text_8: autoDraw = True
+157.8048 	DATA 	Keypress: q
+157.8145 	EXP 	New trial (rep=0, index=21): {'trial_nums': 21, 'img1': 'original image/pixabay_cat_001240.png', 'img2': 'style transformed image/pixabay_cat_001240_make_uglier.png', 'style_transformed': 'make_uglier'}
+157.8855 	EXP 	text_4: autoDraw = False
+157.8855 	EXP 	image: autoDraw = False
+157.8855 	EXP 	image_2: autoDraw = False
+157.8855 	EXP 	text_5: autoDraw = False
+157.8855 	EXP 	text_6: autoDraw = False
+157.8855 	EXP 	text_8: autoDraw = False
+157.8855 	EXP 	text_4: text = 21
+157.8855 	EXP 	image: image = 'original image/pixabay_cat_001240.png'
+157.8855 	EXP 	image_2: image = 'style transformed image/pixabay_cat_001240_make_uglier.png'
+157.8855 	EXP 	text_4: autoDraw = True
+157.8855 	EXP 	image: autoDraw = True
+157.8855 	EXP 	image_2: autoDraw = True
+157.8855 	EXP 	text_5: autoDraw = True
+157.8855 	EXP 	text_6: autoDraw = True
+157.8855 	EXP 	text_8: autoDraw = True
+159.0672 	DATA 	Keypress: q
+159.0766 	EXP 	New trial (rep=0, index=22): {'trial_nums': 22, 'img1': 'original image/pixabay_cat_001321.png', 'img2': 'style transformed image/pixabay_cat_001321_make_uglier.png', 'style_transformed': 'make_uglier'}
+159.1506 	EXP 	text_4: autoDraw = False
+159.1506 	EXP 	image: autoDraw = False
+159.1506 	EXP 	image_2: autoDraw = False
+159.1506 	EXP 	text_5: autoDraw = False
+159.1506 	EXP 	text_6: autoDraw = False
+159.1506 	EXP 	text_8: autoDraw = False
+159.1506 	EXP 	text_4: text = 22
+159.1506 	EXP 	image: image = 'original image/pixabay_cat_001321.png'
+159.1506 	EXP 	image_2: image = 'style transformed image/pixabay_cat_001321_make_uglier.png'
+159.1506 	EXP 	text_4: autoDraw = True
+159.1506 	EXP 	image: autoDraw = True
+159.1506 	EXP 	image_2: autoDraw = True
+159.1506 	EXP 	text_5: autoDraw = True
+159.1506 	EXP 	text_6: autoDraw = True
+159.1506 	EXP 	text_8: autoDraw = True
+160.8718 	DATA 	Keypress: q
+160.8811 	EXP 	New trial (rep=0, index=23): {'trial_nums': 23, 'img1': 'original image/pixabay_cat_001353.png', 'img2': 'style transformed image/pixabay_cat_001353_make_cuter.png', 'style_transformed': 'make_cuter'}
+160.9538 	EXP 	text_4: autoDraw = False
+160.9538 	EXP 	image: autoDraw = False
+160.9538 	EXP 	image_2: autoDraw = False
+160.9538 	EXP 	text_5: autoDraw = False
+160.9538 	EXP 	text_6: autoDraw = False
+160.9538 	EXP 	text_8: autoDraw = False
+160.9538 	EXP 	text_4: text = 23
+160.9538 	EXP 	image: image = 'original image/pixabay_cat_001353.png'
+160.9538 	EXP 	image_2: image = 'style transformed image/pixabay_cat_001353_make_cuter.png'
+160.9538 	EXP 	text_4: autoDraw = True
+160.9538 	EXP 	image: autoDraw = True
+160.9538 	EXP 	image_2: autoDraw = True
+160.9538 	EXP 	text_5: autoDraw = True
+160.9538 	EXP 	text_6: autoDraw = True
+160.9538 	EXP 	text_8: autoDraw = True
+162.0557 	DATA 	Keypress: q
+162.0660 	EXP 	New trial (rep=0, index=24): {'trial_nums': 24, 'img1': 'original image/pixabay_cat_001387.png', 'img2': 'style transformed image/pixabay_cat_001387_make_uglier.png', 'style_transformed': 'make_uglier'}
+162.1395 	EXP 	text_4: autoDraw = False
+162.1395 	EXP 	image: autoDraw = False
+162.1395 	EXP 	image_2: autoDraw = False
+162.1395 	EXP 	text_5: autoDraw = False
+162.1395 	EXP 	text_6: autoDraw = False
+162.1395 	EXP 	text_8: autoDraw = False
+162.1395 	EXP 	text_4: text = 24
+162.1395 	EXP 	image: image = 'original image/pixabay_cat_001387.png'
+162.1395 	EXP 	image_2: image = 'style transformed image/pixabay_cat_001387_make_uglier.png'
+162.1395 	EXP 	text_4: autoDraw = True
+162.1395 	EXP 	image: autoDraw = True
+162.1395 	EXP 	image_2: autoDraw = True
+162.1395 	EXP 	text_5: autoDraw = True
+162.1395 	EXP 	text_6: autoDraw = True
+162.1395 	EXP 	text_8: autoDraw = True
+163.1632 	DATA 	Keypress: q
+163.1732 	EXP 	New trial (rep=0, index=25): {'trial_nums': 25, 'img1': 'original image/pixabay_cat_001498.png', 'img2': 'style transformed image/pixabay_cat_001498_make_cuter.png', 'style_transformed': 'make_cuter'}
+163.2449 	EXP 	text_4: autoDraw = False
+163.2449 	EXP 	image: autoDraw = False
+163.2449 	EXP 	image_2: autoDraw = False
+163.2449 	EXP 	text_5: autoDraw = False
+163.2449 	EXP 	text_6: autoDraw = False
+163.2449 	EXP 	text_8: autoDraw = False
+163.2449 	EXP 	text_4: text = 25
+163.2449 	EXP 	image: image = 'original image/pixabay_cat_001498.png'
+163.2449 	EXP 	image_2: image = 'style transformed image/pixabay_cat_001498_make_cuter.png'
+163.2449 	EXP 	text_4: autoDraw = True
+163.2449 	EXP 	image: autoDraw = True
+163.2449 	EXP 	image_2: autoDraw = True
+163.2449 	EXP 	text_5: autoDraw = True
+163.2449 	EXP 	text_6: autoDraw = True
+163.2449 	EXP 	text_8: autoDraw = True
+164.6964 	EXP 	New trial (rep=0, index=26): {'trial_nums': 26, 'img1': 'original image/pixabay_cat_001634.png', 'img2': 'style transformed image/pixabay_cat_001634_make_cuter.png', 'style_transformed': 'make_cuter'}
+164.7688 	DATA 	Keypress: p
+164.7729 	EXP 	text_4: autoDraw = False
+164.7729 	EXP 	image: autoDraw = False
+164.7729 	EXP 	image_2: autoDraw = False
+164.7729 	EXP 	text_5: autoDraw = False
+164.7729 	EXP 	text_6: autoDraw = False
+164.7729 	EXP 	text_8: autoDraw = False
+164.7729 	EXP 	text_4: text = 26
+164.7729 	EXP 	image: image = 'original image/pixabay_cat_001634.png'
+164.7729 	EXP 	image_2: image = 'style transformed image/pixabay_cat_001634_make_cuter.png'
+164.7729 	EXP 	text_4: autoDraw = True
+164.7729 	EXP 	image: autoDraw = True
+164.7729 	EXP 	image_2: autoDraw = True
+164.7729 	EXP 	text_5: autoDraw = True
+164.7729 	EXP 	text_6: autoDraw = True
+164.7729 	EXP 	text_8: autoDraw = True
+165.9299 	EXP 	New trial (rep=0, index=27): {'trial_nums': 27, 'img1': 'original image/pixabay_cat_001697.png', 'img2': 'style transformed image/pixabay_cat_001697_make_cuter.png', 'style_transformed': 'make_cuter'}
+165.9992 	DATA 	Keypress: p
+166.0042 	EXP 	text_4: autoDraw = False
+166.0042 	EXP 	image: autoDraw = False
+166.0042 	EXP 	image_2: autoDraw = False
+166.0042 	EXP 	text_5: autoDraw = False
+166.0042 	EXP 	text_6: autoDraw = False
+166.0042 	EXP 	text_8: autoDraw = False
+166.0042 	EXP 	text_4: text = 27
+166.0042 	EXP 	image: image = 'original image/pixabay_cat_001697.png'
+166.0042 	EXP 	image_2: image = 'style transformed image/pixabay_cat_001697_make_cuter.png'
+166.0042 	EXP 	text_4: autoDraw = True
+166.0042 	EXP 	image: autoDraw = True
+166.0042 	EXP 	image_2: autoDraw = True
+166.0042 	EXP 	text_5: autoDraw = True
+166.0042 	EXP 	text_6: autoDraw = True
+166.0042 	EXP 	text_8: autoDraw = True
+170.4148 	DATA 	Keypress: p
+170.4239 	EXP 	New trial (rep=0, index=28): {'trial_nums': 28, 'img1': 'original image/pixabay_cat_001736.png', 'img2': 'style transformed image/pixabay_cat_001736_make_uglier.png', 'style_transformed': 'make_uglier'}
+170.5079 	EXP 	text_4: autoDraw = False
+170.5079 	EXP 	image: autoDraw = False
+170.5079 	EXP 	image_2: autoDraw = False
+170.5079 	EXP 	text_5: autoDraw = False
+170.5079 	EXP 	text_6: autoDraw = False
+170.5079 	EXP 	text_8: autoDraw = False
+170.5079 	EXP 	text_4: text = 28
+170.5079 	EXP 	image: image = 'original image/pixabay_cat_001736.png'
+170.5079 	EXP 	image_2: image = 'style transformed image/pixabay_cat_001736_make_uglier.png'
+170.5079 	EXP 	text_4: autoDraw = True
+170.5079 	EXP 	image: autoDraw = True
+170.5079 	EXP 	image_2: autoDraw = True
+170.5079 	EXP 	text_5: autoDraw = True
+170.5079 	EXP 	text_6: autoDraw = True
+170.5079 	EXP 	text_8: autoDraw = True
+182.2015 	DATA 	Keypress: p
+182.2117 	EXP 	New trial (rep=0, index=29): {'trial_nums': 29, 'img1': 'original image/pixabay_cat_001796.png', 'img2': 'style transformed image/pixabay_cat_001796_make_cuter.png', 'style_transformed': 'make_cuter'}
+182.2990 	EXP 	text_4: autoDraw = False
+182.2990 	EXP 	image: autoDraw = False
+182.2990 	EXP 	image_2: autoDraw = False
+182.2990 	EXP 	text_5: autoDraw = False
+182.2990 	EXP 	text_6: autoDraw = False
+182.2990 	EXP 	text_8: autoDraw = False
+182.2990 	EXP 	text_4: text = 29
+182.2990 	EXP 	image: image = 'original image/pixabay_cat_001796.png'
+182.2990 	EXP 	image_2: image = 'style transformed image/pixabay_cat_001796_make_cuter.png'
+182.2990 	EXP 	text_4: autoDraw = True
+182.2990 	EXP 	image: autoDraw = True
+182.2990 	EXP 	image_2: autoDraw = True
+182.2990 	EXP 	text_5: autoDraw = True
+182.2990 	EXP 	text_6: autoDraw = True
+182.2990 	EXP 	text_8: autoDraw = True
+183.6958 	DATA 	Keypress: p
+183.7051 	EXP 	New trial (rep=0, index=30): {'trial_nums': 30, 'img1': 'original image/pixabay_cat_001802.png', 'img2': 'style transformed image/pixabay_cat_001802_make_cuter.png', 'style_transformed': 'make_cuter'}
+183.7781 	EXP 	text_4: autoDraw = False
+183.7781 	EXP 	image: autoDraw = False
+183.7781 	EXP 	image_2: autoDraw = False
+183.7781 	EXP 	text_5: autoDraw = False
+183.7781 	EXP 	text_6: autoDraw = False
+183.7781 	EXP 	text_8: autoDraw = False
+183.7781 	EXP 	text_4: text = 30
+183.7781 	EXP 	image: image = 'original image/pixabay_cat_001802.png'
+183.7781 	EXP 	image_2: image = 'style transformed image/pixabay_cat_001802_make_cuter.png'
+183.7781 	EXP 	text_4: autoDraw = True
+183.7781 	EXP 	image: autoDraw = True
+183.7781 	EXP 	image_2: autoDraw = True
+183.7781 	EXP 	text_5: autoDraw = True
+183.7781 	EXP 	text_6: autoDraw = True
+183.7781 	EXP 	text_8: autoDraw = True
+186.1317 	DATA 	Keypress: q
+186.1410 	EXP 	New trial (rep=0, index=31): {'trial_nums': 31, 'img1': 'original image/pixabay_cat_001847.png', 'img2': 'style transformed image/pixabay_cat_001847_make_uglier.png', 'style_transformed': 'make_uglier'}
+186.2162 	EXP 	text_4: autoDraw = False
+186.2162 	EXP 	image: autoDraw = False
+186.2162 	EXP 	image_2: autoDraw = False
+186.2162 	EXP 	text_5: autoDraw = False
+186.2162 	EXP 	text_6: autoDraw = False
+186.2162 	EXP 	text_8: autoDraw = False
+186.2162 	EXP 	text_4: text = 31
+186.2162 	EXP 	image: image = 'original image/pixabay_cat_001847.png'
+186.2162 	EXP 	image_2: image = 'style transformed image/pixabay_cat_001847_make_uglier.png'
+186.2162 	EXP 	text_4: autoDraw = True
+186.2162 	EXP 	image: autoDraw = True
+186.2162 	EXP 	image_2: autoDraw = True
+186.2162 	EXP 	text_5: autoDraw = True
+186.2162 	EXP 	text_6: autoDraw = True
+186.2162 	EXP 	text_8: autoDraw = True
+193.8392 	EXP 	New trial (rep=0, index=32): {'trial_nums': 32, 'img1': 'original image/pixabay_cat_001868.png', 'img2': 'style transformed image/pixabay_cat_001868_make_cuter.png', 'style_transformed': 'make_cuter'}
+193.9105 	DATA 	Keypress: q
+193.9148 	EXP 	text_4: autoDraw = False
+193.9148 	EXP 	image: autoDraw = False
+193.9148 	EXP 	image_2: autoDraw = False
+193.9148 	EXP 	text_5: autoDraw = False
+193.9148 	EXP 	text_6: autoDraw = False
+193.9148 	EXP 	text_8: autoDraw = False
+193.9148 	EXP 	text_4: text = 32
+193.9148 	EXP 	image: image = 'original image/pixabay_cat_001868.png'
+193.9148 	EXP 	image_2: image = 'style transformed image/pixabay_cat_001868_make_cuter.png'
+193.9148 	EXP 	text_4: autoDraw = True
+193.9148 	EXP 	image: autoDraw = True
+193.9148 	EXP 	image_2: autoDraw = True
+193.9148 	EXP 	text_5: autoDraw = True
+193.9148 	EXP 	text_6: autoDraw = True
+193.9148 	EXP 	text_8: autoDraw = True
+194.9442 	DATA 	Keypress: p
+194.9539 	EXP 	New trial (rep=0, index=33): {'trial_nums': 33, 'img1': 'original image/pixabay_cat_002016.png', 'img2': 'style transformed image/pixabay_cat_002016_make_uglier.png', 'style_transformed': 'make_uglier'}
+195.0254 	EXP 	text_4: autoDraw = False
+195.0254 	EXP 	image: autoDraw = False
+195.0254 	EXP 	image_2: autoDraw = False
+195.0254 	EXP 	text_5: autoDraw = False
+195.0254 	EXP 	text_6: autoDraw = False
+195.0254 	EXP 	text_8: autoDraw = False
+195.0254 	EXP 	text_4: text = 33
+195.0254 	EXP 	image: image = 'original image/pixabay_cat_002016.png'
+195.0254 	EXP 	image_2: image = 'style transformed image/pixabay_cat_002016_make_uglier.png'
+195.0254 	EXP 	text_4: autoDraw = True
+195.0254 	EXP 	image: autoDraw = True
+195.0254 	EXP 	image_2: autoDraw = True
+195.0254 	EXP 	text_5: autoDraw = True
+195.0254 	EXP 	text_6: autoDraw = True
+195.0254 	EXP 	text_8: autoDraw = True
+197.2095 	DATA 	Keypress: q
+197.2196 	EXP 	New trial (rep=0, index=34): {'trial_nums': 34, 'img1': 'original image/pixabay_cat_002084.png', 'img2': 'style transformed image/pixabay_cat_002084_make_uglier.png', 'style_transformed': 'make_uglier'}
+197.2893 	EXP 	text_4: autoDraw = False
+197.2893 	EXP 	image: autoDraw = False
+197.2893 	EXP 	image_2: autoDraw = False
+197.2893 	EXP 	text_5: autoDraw = False
+197.2893 	EXP 	text_6: autoDraw = False
+197.2893 	EXP 	text_8: autoDraw = False
+197.2893 	EXP 	text_4: text = 34
+197.2893 	EXP 	image: image = 'original image/pixabay_cat_002084.png'
+197.2893 	EXP 	image_2: image = 'style transformed image/pixabay_cat_002084_make_uglier.png'
+197.2893 	EXP 	text_4: autoDraw = True
+197.2893 	EXP 	image: autoDraw = True
+197.2893 	EXP 	image_2: autoDraw = True
+197.2893 	EXP 	text_5: autoDraw = True
+197.2893 	EXP 	text_6: autoDraw = True
+197.2893 	EXP 	text_8: autoDraw = True
+201.6886 	EXP 	New trial (rep=0, index=35): {'trial_nums': 35, 'img1': 'original image/pixabay_cat_002181.png', 'img2': 'style transformed image/pixabay_cat_002181_make_uglier.png', 'style_transformed': 'make_uglier'}
+201.7627 	DATA 	Keypress: q
+201.7669 	EXP 	text_4: autoDraw = False
+201.7669 	EXP 	image: autoDraw = False
+201.7669 	EXP 	image_2: autoDraw = False
+201.7669 	EXP 	text_5: autoDraw = False
+201.7669 	EXP 	text_6: autoDraw = False
+201.7669 	EXP 	text_8: autoDraw = False
+201.7669 	EXP 	text_4: text = 35
+201.7669 	EXP 	image: image = 'original image/pixabay_cat_002181.png'
+201.7669 	EXP 	image_2: image = 'style transformed image/pixabay_cat_002181_make_uglier.png'
+201.7669 	EXP 	text_4: autoDraw = True
+201.7669 	EXP 	image: autoDraw = True
+201.7669 	EXP 	image_2: autoDraw = True
+201.7669 	EXP 	text_5: autoDraw = True
+201.7669 	EXP 	text_6: autoDraw = True
+201.7669 	EXP 	text_8: autoDraw = True
+203.2535 	DATA 	Keypress: q
+203.2628 	EXP 	New trial (rep=0, index=36): {'trial_nums': 36, 'img1': 'original image/pixabay_cat_002363.png', 'img2': 'style transformed image/pixabay_cat_002363_make_uglier.png', 'style_transformed': 'make_uglier'}
+203.3363 	EXP 	text_4: autoDraw = False
+203.3363 	EXP 	image: autoDraw = False
+203.3363 	EXP 	image_2: autoDraw = False
+203.3363 	EXP 	text_5: autoDraw = False
+203.3363 	EXP 	text_6: autoDraw = False
+203.3363 	EXP 	text_8: autoDraw = False
+203.3363 	EXP 	text_4: text = 36
+203.3363 	EXP 	image: image = 'original image/pixabay_cat_002363.png'
+203.3363 	EXP 	image_2: image = 'style transformed image/pixabay_cat_002363_make_uglier.png'
+203.3363 	EXP 	text_4: autoDraw = True
+203.3363 	EXP 	image: autoDraw = True
+203.3363 	EXP 	image_2: autoDraw = True
+203.3363 	EXP 	text_5: autoDraw = True
+203.3363 	EXP 	text_6: autoDraw = True
+203.3363 	EXP 	text_8: autoDraw = True
+204.4340 	DATA 	Keypress: q
+204.4434 	EXP 	New trial (rep=0, index=37): {'trial_nums': 37, 'img1': 'original image/pixabay_cat_002556.png', 'img2': 'style transformed image/pixabay_cat_002556_make_uglier.png', 'style_transformed': 'make_uglier'}
+204.5191 	EXP 	text_4: autoDraw = False
+204.5191 	EXP 	image: autoDraw = False
+204.5191 	EXP 	image_2: autoDraw = False
+204.5191 	EXP 	text_5: autoDraw = False
+204.5191 	EXP 	text_6: autoDraw = False
+204.5191 	EXP 	text_8: autoDraw = False
+204.5191 	EXP 	text_4: text = 37
+204.5191 	EXP 	image: image = 'original image/pixabay_cat_002556.png'
+204.5191 	EXP 	image_2: image = 'style transformed image/pixabay_cat_002556_make_uglier.png'
+204.5191 	EXP 	text_4: autoDraw = True
+204.5191 	EXP 	image: autoDraw = True
+204.5191 	EXP 	image_2: autoDraw = True
+204.5191 	EXP 	text_5: autoDraw = True
+204.5191 	EXP 	text_6: autoDraw = True
+204.5191 	EXP 	text_8: autoDraw = True
+206.7313 	DATA 	Keypress: q
+206.7410 	EXP 	New trial (rep=0, index=38): {'trial_nums': 38, 'img1': 'original image/pixabay_cat_002892.png', 'img2': 'style transformed image/pixabay_cat_002892_make_cuter.png', 'style_transformed': 'make_cuter'}
+206.8116 	EXP 	text_4: autoDraw = False
+206.8116 	EXP 	image: autoDraw = False
+206.8116 	EXP 	image_2: autoDraw = False
+206.8116 	EXP 	text_5: autoDraw = False
+206.8116 	EXP 	text_6: autoDraw = False
+206.8116 	EXP 	text_8: autoDraw = False
+206.8116 	EXP 	text_4: text = 38
+206.8116 	EXP 	image: image = 'original image/pixabay_cat_002892.png'
+206.8116 	EXP 	image_2: image = 'style transformed image/pixabay_cat_002892_make_cuter.png'
+206.8116 	EXP 	text_4: autoDraw = True
+206.8116 	EXP 	image: autoDraw = True
+206.8116 	EXP 	image_2: autoDraw = True
+206.8116 	EXP 	text_5: autoDraw = True
+206.8116 	EXP 	text_6: autoDraw = True
+206.8116 	EXP 	text_8: autoDraw = True
+207.9951 	DATA 	Keypress: p
+208.0047 	EXP 	New trial (rep=0, index=39): {'trial_nums': 39, 'img1': 'original image/pixabay_cat_003141.png', 'img2': 'style transformed image/pixabay_cat_003141_make_uglier.png', 'style_transformed': 'make_uglier'}
+208.0746 	EXP 	text_4: autoDraw = False
+208.0746 	EXP 	image: autoDraw = False
+208.0746 	EXP 	image_2: autoDraw = False
+208.0746 	EXP 	text_5: autoDraw = False
+208.0746 	EXP 	text_6: autoDraw = False
+208.0746 	EXP 	text_8: autoDraw = False
+208.0746 	EXP 	text_4: text = 39
+208.0746 	EXP 	image: image = 'original image/pixabay_cat_003141.png'
+208.0746 	EXP 	image_2: image = 'style transformed image/pixabay_cat_003141_make_uglier.png'
+208.0746 	EXP 	text_4: autoDraw = True
+208.0746 	EXP 	image: autoDraw = True
+208.0746 	EXP 	image_2: autoDraw = True
+208.0746 	EXP 	text_5: autoDraw = True
+208.0746 	EXP 	text_6: autoDraw = True
+208.0746 	EXP 	text_8: autoDraw = True
+210.4634 	DATA 	Keypress: q
+210.4734 	EXP 	New trial (rep=0, index=40): {'trial_nums': 40, 'img1': 'original image/pixabay_cat_003227.png', 'img2': 'style transformed image/pixabay_cat_003227_make_uglier.png', 'style_transformed': 'make_uglier'}
+210.5485 	EXP 	text_4: autoDraw = False
+210.5485 	EXP 	image: autoDraw = False
+210.5485 	EXP 	image_2: autoDraw = False
+210.5485 	EXP 	text_5: autoDraw = False
+210.5485 	EXP 	text_6: autoDraw = False
+210.5485 	EXP 	text_8: autoDraw = False
+210.5485 	EXP 	text_4: text = 40
+210.5485 	EXP 	image: image = 'original image/pixabay_cat_003227.png'
+210.5485 	EXP 	image_2: image = 'style transformed image/pixabay_cat_003227_make_uglier.png'
+210.5485 	EXP 	text_4: autoDraw = True
+210.5485 	EXP 	image: autoDraw = True
+210.5485 	EXP 	image_2: autoDraw = True
+210.5485 	EXP 	text_5: autoDraw = True
+210.5485 	EXP 	text_6: autoDraw = True
+210.5485 	EXP 	text_8: autoDraw = True
+211.5976 	DATA 	Keypress: p
+211.6068 	EXP 	New trial (rep=0, index=41): {'trial_nums': 41, 'img1': 'original image/pixabay_cat_003295.png', 'img2': 'style transformed image/pixabay_cat_003295_make_cuter.png', 'style_transformed': 'make_cuter'}
+211.6752 	EXP 	text_4: autoDraw = False
+211.6752 	EXP 	image: autoDraw = False
+211.6752 	EXP 	image_2: autoDraw = False
+211.6752 	EXP 	text_5: autoDraw = False
+211.6752 	EXP 	text_6: autoDraw = False
+211.6752 	EXP 	text_8: autoDraw = False
+211.6752 	EXP 	text_4: text = 41
+211.6752 	EXP 	image: image = 'original image/pixabay_cat_003295.png'
+211.6752 	EXP 	image_2: image = 'style transformed image/pixabay_cat_003295_make_cuter.png'
+211.6752 	EXP 	text_4: autoDraw = True
+211.6752 	EXP 	image: autoDraw = True
+211.6752 	EXP 	image_2: autoDraw = True
+211.6752 	EXP 	text_5: autoDraw = True
+211.6752 	EXP 	text_6: autoDraw = True
+211.6752 	EXP 	text_8: autoDraw = True
+213.8411 	DATA 	Keypress: p
+213.8509 	EXP 	New trial (rep=0, index=42): {'trial_nums': 42, 'img1': 'original image/pixabay_cat_003384.png', 'img2': 'style transformed image/pixabay_cat_003384_make_uglier.png', 'style_transformed': 'make_uglier'}
+213.9242 	EXP 	text_4: autoDraw = False
+213.9242 	EXP 	image: autoDraw = False
+213.9242 	EXP 	image_2: autoDraw = False
+213.9242 	EXP 	text_5: autoDraw = False
+213.9242 	EXP 	text_6: autoDraw = False
+213.9242 	EXP 	text_8: autoDraw = False
+213.9242 	EXP 	text_4: text = 42
+213.9242 	EXP 	image: image = 'original image/pixabay_cat_003384.png'
+213.9242 	EXP 	image_2: image = 'style transformed image/pixabay_cat_003384_make_uglier.png'
+213.9242 	EXP 	text_4: autoDraw = True
+213.9242 	EXP 	image: autoDraw = True
+213.9242 	EXP 	image_2: autoDraw = True
+213.9242 	EXP 	text_5: autoDraw = True
+213.9242 	EXP 	text_6: autoDraw = True
+213.9242 	EXP 	text_8: autoDraw = True
+215.7161 	DATA 	Keypress: q
+215.7263 	EXP 	New trial (rep=0, index=43): {'trial_nums': 43, 'img1': 'original image/pixabay_cat_003391.png', 'img2': 'style transformed image/pixabay_cat_003391_make_uglier.png', 'style_transformed': 'make_uglier'}
+215.8012 	EXP 	text_4: autoDraw = False
+215.8012 	EXP 	image: autoDraw = False
+215.8012 	EXP 	image_2: autoDraw = False
+215.8012 	EXP 	text_5: autoDraw = False
+215.8012 	EXP 	text_6: autoDraw = False
+215.8012 	EXP 	text_8: autoDraw = False
+215.8012 	EXP 	text_4: text = 43
+215.8012 	EXP 	image: image = 'original image/pixabay_cat_003391.png'
+215.8012 	EXP 	image_2: image = 'style transformed image/pixabay_cat_003391_make_uglier.png'
+215.8012 	EXP 	text_4: autoDraw = True
+215.8012 	EXP 	image: autoDraw = True
+215.8012 	EXP 	image_2: autoDraw = True
+215.8012 	EXP 	text_5: autoDraw = True
+215.8012 	EXP 	text_6: autoDraw = True
+215.8012 	EXP 	text_8: autoDraw = True
+217.2200 	DATA 	Keypress: q
+217.2295 	EXP 	New trial (rep=0, index=44): {'trial_nums': 44, 'img1': 'original image/pixabay_cat_003547.png', 'img2': 'style transformed image/pixabay_cat_003547_make_uglier.png', 'style_transformed': 'make_uglier'}
+217.3002 	EXP 	text_4: autoDraw = False
+217.3002 	EXP 	image: autoDraw = False
+217.3002 	EXP 	image_2: autoDraw = False
+217.3002 	EXP 	text_5: autoDraw = False
+217.3002 	EXP 	text_6: autoDraw = False
+217.3002 	EXP 	text_8: autoDraw = False
+217.3002 	EXP 	text_4: text = 44
+217.3002 	EXP 	image: image = 'original image/pixabay_cat_003547.png'
+217.3002 	EXP 	image_2: image = 'style transformed image/pixabay_cat_003547_make_uglier.png'
+217.3002 	EXP 	text_4: autoDraw = True
+217.3002 	EXP 	image: autoDraw = True
+217.3002 	EXP 	image_2: autoDraw = True
+217.3002 	EXP 	text_5: autoDraw = True
+217.3002 	EXP 	text_6: autoDraw = True
+217.3002 	EXP 	text_8: autoDraw = True
+218.1561 	DATA 	Keypress: q
+218.1656 	EXP 	New trial (rep=0, index=45): {'trial_nums': 45, 'img1': 'original image/pixabay_cat_003665.png', 'img2': 'style transformed image/pixabay_cat_003665_make_cuter.png', 'style_transformed': 'make_cuter'}
+218.2378 	EXP 	text_4: autoDraw = False
+218.2378 	EXP 	image: autoDraw = False
+218.2378 	EXP 	image_2: autoDraw = False
+218.2378 	EXP 	text_5: autoDraw = False
+218.2378 	EXP 	text_6: autoDraw = False
+218.2378 	EXP 	text_8: autoDraw = False
+218.2378 	EXP 	text_4: text = 45
+218.2378 	EXP 	image: image = 'original image/pixabay_cat_003665.png'
+218.2378 	EXP 	image_2: image = 'style transformed image/pixabay_cat_003665_make_cuter.png'
+218.2378 	EXP 	text_4: autoDraw = True
+218.2378 	EXP 	image: autoDraw = True
+218.2378 	EXP 	image_2: autoDraw = True
+218.2378 	EXP 	text_5: autoDraw = True
+218.2378 	EXP 	text_6: autoDraw = True
+218.2378 	EXP 	text_8: autoDraw = True
+219.1458 	DATA 	Keypress: q
+219.1552 	EXP 	New trial (rep=0, index=46): {'trial_nums': 46, 'img1': 'original image/pixabay_cat_003781.png', 'img2': 'style transformed image/pixabay_cat_003781_make_cuter.png', 'style_transformed': 'make_cuter'}
+219.2250 	EXP 	text_4: autoDraw = False
+219.2250 	EXP 	image: autoDraw = False
+219.2250 	EXP 	image_2: autoDraw = False
+219.2250 	EXP 	text_5: autoDraw = False
+219.2250 	EXP 	text_6: autoDraw = False
+219.2250 	EXP 	text_8: autoDraw = False
+219.2250 	EXP 	text_4: text = 46
+219.2250 	EXP 	image: image = 'original image/pixabay_cat_003781.png'
+219.2250 	EXP 	image_2: image = 'style transformed image/pixabay_cat_003781_make_cuter.png'
+219.2250 	EXP 	text_4: autoDraw = True
+219.2250 	EXP 	image: autoDraw = True
+219.2250 	EXP 	image_2: autoDraw = True
+219.2250 	EXP 	text_5: autoDraw = True
+219.2250 	EXP 	text_6: autoDraw = True
+219.2250 	EXP 	text_8: autoDraw = True
+219.2369 	DATA 	Keypress: q
+219.2465 	EXP 	New trial (rep=0, index=47): {'trial_nums': 47, 'img1': 'original image/pixabay_cat_003799.png', 'img2': 'style transformed image/pixabay_cat_003799_make_uglier.png', 'style_transformed': 'make_uglier'}
+219.3164 	EXP 	text_4: autoDraw = False
+219.3164 	EXP 	image: autoDraw = False
+219.3164 	EXP 	image_2: autoDraw = False
+219.3164 	EXP 	text_5: autoDraw = False
+219.3164 	EXP 	text_6: autoDraw = False
+219.3164 	EXP 	text_8: autoDraw = False
+219.3164 	EXP 	text_4: text = 47
+219.3164 	EXP 	image: image = 'original image/pixabay_cat_003799.png'
+219.3164 	EXP 	image_2: image = 'style transformed image/pixabay_cat_003799_make_uglier.png'
+219.3164 	EXP 	text_4: autoDraw = True
+219.3164 	EXP 	image: autoDraw = True
+219.3164 	EXP 	image_2: autoDraw = True
+219.3164 	EXP 	text_5: autoDraw = True
+219.3164 	EXP 	text_6: autoDraw = True
+219.3164 	EXP 	text_8: autoDraw = True
+223.5651 	DATA 	Keypress: q
+223.5745 	EXP 	New trial (rep=0, index=48): {'trial_nums': 48, 'img1': 'original image/pixabay_cat_003813.png', 'img2': 'style transformed image/pixabay_cat_003813_make_uglier.png', 'style_transformed': 'make_uglier'}
+223.6571 	EXP 	text_4: autoDraw = False
+223.6571 	EXP 	image: autoDraw = False
+223.6571 	EXP 	image_2: autoDraw = False
+223.6571 	EXP 	text_5: autoDraw = False
+223.6571 	EXP 	text_6: autoDraw = False
+223.6571 	EXP 	text_8: autoDraw = False
+223.6571 	EXP 	text_4: text = 48
+223.6571 	EXP 	image: image = 'original image/pixabay_cat_003813.png'
+223.6571 	EXP 	image_2: image = 'style transformed image/pixabay_cat_003813_make_uglier.png'
+223.6571 	EXP 	text_4: autoDraw = True
+223.6571 	EXP 	image: autoDraw = True
+223.6571 	EXP 	image_2: autoDraw = True
+223.6571 	EXP 	text_5: autoDraw = True
+223.6571 	EXP 	text_6: autoDraw = True
+223.6571 	EXP 	text_8: autoDraw = True
+225.6575 	EXP 	New trial (rep=0, index=49): {'trial_nums': 49, 'img1': 'original image/pixabay_cat_003849.png', 'img2': 'style transformed image/pixabay_cat_003849_make_cuter.png', 'style_transformed': 'make_cuter'}
+225.7224 	DATA 	Keypress: q
+225.7265 	EXP 	text_4: autoDraw = False
+225.7265 	EXP 	image: autoDraw = False
+225.7265 	EXP 	image_2: autoDraw = False
+225.7265 	EXP 	text_5: autoDraw = False
+225.7265 	EXP 	text_6: autoDraw = False
+225.7265 	EXP 	text_8: autoDraw = False
+225.7265 	EXP 	text_4: text = 49
+225.7265 	EXP 	image: image = 'original image/pixabay_cat_003849.png'
+225.7265 	EXP 	image_2: image = 'style transformed image/pixabay_cat_003849_make_cuter.png'
+225.7265 	EXP 	text_4: autoDraw = True
+225.7265 	EXP 	image: autoDraw = True
+225.7265 	EXP 	image_2: autoDraw = True
+225.7265 	EXP 	text_5: autoDraw = True
+225.7265 	EXP 	text_6: autoDraw = True
+225.7265 	EXP 	text_8: autoDraw = True
+226.7660 	DATA 	Keypress: q
+226.7761 	EXP 	New trial (rep=0, index=50): {'trial_nums': 50, 'img1': 'original image/pixabay_cat_003973.png', 'img2': 'style transformed image/pixabay_cat_003973_make_uglier.png', 'style_transformed': 'make_uglier'}
+226.8519 	EXP 	text_4: autoDraw = False
+226.8519 	EXP 	image: autoDraw = False
+226.8519 	EXP 	image_2: autoDraw = False
+226.8519 	EXP 	text_5: autoDraw = False
+226.8519 	EXP 	text_6: autoDraw = False
+226.8519 	EXP 	text_8: autoDraw = False
+226.8519 	EXP 	text_4: text = 50
+226.8519 	EXP 	image: image = 'original image/pixabay_cat_003973.png'
+226.8519 	EXP 	image_2: image = 'style transformed image/pixabay_cat_003973_make_uglier.png'
+226.8519 	EXP 	text_4: autoDraw = True
+226.8519 	EXP 	image: autoDraw = True
+226.8519 	EXP 	image_2: autoDraw = True
+226.8519 	EXP 	text_5: autoDraw = True
+226.8519 	EXP 	text_6: autoDraw = True
+226.8519 	EXP 	text_8: autoDraw = True
+229.6832 	EXP 	New trial (rep=0, index=51): {'trial_nums': 51, 'img1': 'original image/pixabay_cat_004087.png', 'img2': 'style transformed image/pixabay_cat_004087_make_cuter.png', 'style_transformed': 'make_cuter'}
+229.7566 	DATA 	Keypress: q
+229.7607 	EXP 	text_4: autoDraw = False
+229.7607 	EXP 	image: autoDraw = False
+229.7607 	EXP 	image_2: autoDraw = False
+229.7607 	EXP 	text_5: autoDraw = False
+229.7607 	EXP 	text_6: autoDraw = False
+229.7607 	EXP 	text_8: autoDraw = False
+229.7607 	EXP 	text_4: text = 51
+229.7607 	EXP 	image: image = 'original image/pixabay_cat_004087.png'
+229.7607 	EXP 	image_2: image = 'style transformed image/pixabay_cat_004087_make_cuter.png'
+229.7607 	EXP 	text_4: autoDraw = True
+229.7607 	EXP 	image: autoDraw = True
+229.7607 	EXP 	image_2: autoDraw = True
+229.7607 	EXP 	text_5: autoDraw = True
+229.7607 	EXP 	text_6: autoDraw = True
+229.7607 	EXP 	text_8: autoDraw = True
+230.5799 	DATA 	Keypress: p
+230.5904 	EXP 	New trial (rep=0, index=52): {'trial_nums': 52, 'img1': 'original image/pixabay_cat_004383.png', 'img2': 'style transformed image/pixabay_cat_004383_make_cuter.png', 'style_transformed': 'make_cuter'}
+230.6601 	EXP 	text_4: autoDraw = False
+230.6601 	EXP 	image: autoDraw = False
+230.6601 	EXP 	image_2: autoDraw = False
+230.6601 	EXP 	text_5: autoDraw = False
+230.6601 	EXP 	text_6: autoDraw = False
+230.6601 	EXP 	text_8: autoDraw = False
+230.6601 	EXP 	text_4: text = 52
+230.6601 	EXP 	image: image = 'original image/pixabay_cat_004383.png'
+230.6601 	EXP 	image_2: image = 'style transformed image/pixabay_cat_004383_make_cuter.png'
+230.6601 	EXP 	text_4: autoDraw = True
+230.6601 	EXP 	image: autoDraw = True
+230.6601 	EXP 	image_2: autoDraw = True
+230.6601 	EXP 	text_5: autoDraw = True
+230.6601 	EXP 	text_6: autoDraw = True
+230.6601 	EXP 	text_8: autoDraw = True
+231.5166 	DATA 	Keypress: p
+231.5260 	EXP 	New trial (rep=0, index=53): {'trial_nums': 53, 'img1': 'original image/pixabay_cat_004439.png', 'img2': 'style transformed image/pixabay_cat_004439_make_uglier.png', 'style_transformed': 'make_uglier'}
+231.6006 	EXP 	text_4: autoDraw = False
+231.6006 	EXP 	image: autoDraw = False
+231.6006 	EXP 	image_2: autoDraw = False
+231.6006 	EXP 	text_5: autoDraw = False
+231.6006 	EXP 	text_6: autoDraw = False
+231.6006 	EXP 	text_8: autoDraw = False
+231.6006 	EXP 	text_4: text = 53
+231.6006 	EXP 	image: image = 'original image/pixabay_cat_004439.png'
+231.6006 	EXP 	image_2: image = 'style transformed image/pixabay_cat_004439_make_uglier.png'
+231.6006 	EXP 	text_4: autoDraw = True
+231.6006 	EXP 	image: autoDraw = True
+231.6006 	EXP 	image_2: autoDraw = True
+231.6006 	EXP 	text_5: autoDraw = True
+231.6006 	EXP 	text_6: autoDraw = True
+231.6006 	EXP 	text_8: autoDraw = True
+233.0169 	EXP 	New trial (rep=0, index=54): {'trial_nums': 54, 'img1': 'original image/pixabay_cat_004500.png', 'img2': 'style transformed image/pixabay_cat_004500_make_cuter.png', 'style_transformed': 'make_cuter'}
+233.0875 	DATA 	Keypress: q
+233.0917 	EXP 	text_4: autoDraw = False
+233.0917 	EXP 	image: autoDraw = False
+233.0917 	EXP 	image_2: autoDraw = False
+233.0917 	EXP 	text_5: autoDraw = False
+233.0917 	EXP 	text_6: autoDraw = False
+233.0917 	EXP 	text_8: autoDraw = False
+233.0917 	EXP 	text_4: text = 54
+233.0917 	EXP 	image: image = 'original image/pixabay_cat_004500.png'
+233.0917 	EXP 	image_2: image = 'style transformed image/pixabay_cat_004500_make_cuter.png'
+233.0917 	EXP 	text_4: autoDraw = True
+233.0917 	EXP 	image: autoDraw = True
+233.0917 	EXP 	image_2: autoDraw = True
+233.0917 	EXP 	text_5: autoDraw = True
+233.0917 	EXP 	text_6: autoDraw = True
+233.0917 	EXP 	text_8: autoDraw = True
+234.0082 	EXP 	New trial (rep=0, index=55): {'trial_nums': 55, 'img1': 'original image/pixabay_cat_004558.png', 'img2': 'style transformed image/pixabay_cat_004558_make_cuter.png', 'style_transformed': 'make_cuter'}
+234.0773 	DATA 	Keypress: q
+234.0815 	EXP 	text_4: autoDraw = False
+234.0815 	EXP 	image: autoDraw = False
+234.0815 	EXP 	image_2: autoDraw = False
+234.0815 	EXP 	text_5: autoDraw = False
+234.0815 	EXP 	text_6: autoDraw = False
+234.0815 	EXP 	text_8: autoDraw = False
+234.0815 	EXP 	text_4: text = 55
+234.0815 	EXP 	image: image = 'original image/pixabay_cat_004558.png'
+234.0815 	EXP 	image_2: image = 'style transformed image/pixabay_cat_004558_make_cuter.png'
+234.0815 	EXP 	text_4: autoDraw = True
+234.0815 	EXP 	image: autoDraw = True
+234.0815 	EXP 	image_2: autoDraw = True
+234.0815 	EXP 	text_5: autoDraw = True
+234.0815 	EXP 	text_6: autoDraw = True
+234.0815 	EXP 	text_8: autoDraw = True
+235.2598 	DATA 	Keypress: p
+235.2690 	EXP 	New trial (rep=0, index=56): {'trial_nums': 56, 'img1': 'original image/pixabay_cat_004561.png', 'img2': 'style transformed image/pixabay_cat_004561_make_cuter.png', 'style_transformed': 'make_cuter'}
+235.3408 	EXP 	text_4: autoDraw = False
+235.3408 	EXP 	image: autoDraw = False
+235.3408 	EXP 	image_2: autoDraw = False
+235.3408 	EXP 	text_5: autoDraw = False
+235.3408 	EXP 	text_6: autoDraw = False
+235.3408 	EXP 	text_8: autoDraw = False
+235.3408 	EXP 	text_4: text = 56
+235.3408 	EXP 	image: image = 'original image/pixabay_cat_004561.png'
+235.3408 	EXP 	image_2: image = 'style transformed image/pixabay_cat_004561_make_cuter.png'
+235.3408 	EXP 	text_4: autoDraw = True
+235.3408 	EXP 	image: autoDraw = True
+235.3408 	EXP 	image_2: autoDraw = True
+235.3408 	EXP 	text_5: autoDraw = True
+235.3408 	EXP 	text_6: autoDraw = True
+235.3408 	EXP 	text_8: autoDraw = True
+236.1402 	DATA 	Keypress: p
+236.1510 	EXP 	New trial (rep=0, index=57): {'trial_nums': 57, 'img1': 'original image/pixabay_cat_004638.png', 'img2': 'style transformed image/pixabay_cat_004638_make_cuter.png', 'style_transformed': 'make_cuter'}
+236.2223 	EXP 	text_4: autoDraw = False
+236.2223 	EXP 	image: autoDraw = False
+236.2223 	EXP 	image_2: autoDraw = False
+236.2223 	EXP 	text_5: autoDraw = False
+236.2223 	EXP 	text_6: autoDraw = False
+236.2223 	EXP 	text_8: autoDraw = False
+236.2223 	EXP 	text_4: text = 57
+236.2223 	EXP 	image: image = 'original image/pixabay_cat_004638.png'
+236.2223 	EXP 	image_2: image = 'style transformed image/pixabay_cat_004638_make_cuter.png'
+236.2223 	EXP 	text_4: autoDraw = True
+236.2223 	EXP 	image: autoDraw = True
+236.2223 	EXP 	image_2: autoDraw = True
+236.2223 	EXP 	text_5: autoDraw = True
+236.2223 	EXP 	text_6: autoDraw = True
+236.2223 	EXP 	text_8: autoDraw = True
+237.2102 	DATA 	Keypress: p
+238.0674 	DATA 	Keypress: p
+238.0768 	EXP 	New trial (rep=0, index=58): {'trial_nums': 58, 'img1': 'original image/pixabay_cat_004653.png', 'img2': 'style transformed image/pixabay_cat_004653_make_uglier.png', 'style_transformed': 'make_uglier'}
+238.1589 	EXP 	text_4: autoDraw = False
+238.1589 	EXP 	image: autoDraw = False
+238.1589 	EXP 	image_2: autoDraw = False
+238.1589 	EXP 	text_5: autoDraw = False
+238.1589 	EXP 	text_6: autoDraw = False
+238.1589 	EXP 	text_8: autoDraw = False
+238.1589 	EXP 	text_4: text = 58
+238.1589 	EXP 	image: image = 'original image/pixabay_cat_004653.png'
+238.1589 	EXP 	image_2: image = 'style transformed image/pixabay_cat_004653_make_uglier.png'
+238.1589 	EXP 	text_4: autoDraw = True
+238.1589 	EXP 	image: autoDraw = True
+238.1589 	EXP 	image_2: autoDraw = True
+238.1589 	EXP 	text_5: autoDraw = True
+238.1589 	EXP 	text_6: autoDraw = True
+238.1589 	EXP 	text_8: autoDraw = True
+239.1678 	EXP 	New trial (rep=0, index=59): {'trial_nums': 59, 'img1': 'original image/pixabay_cat_004790.png', 'img2': 'style transformed image/pixabay_cat_004790_make_uglier.png', 'style_transformed': 'make_uglier'}
+239.2362 	DATA 	Keypress: q
+239.2404 	EXP 	text_4: autoDraw = False
+239.2404 	EXP 	image: autoDraw = False
+239.2404 	EXP 	image_2: autoDraw = False
+239.2404 	EXP 	text_5: autoDraw = False
+239.2404 	EXP 	text_6: autoDraw = False
+239.2404 	EXP 	text_8: autoDraw = False
+239.2404 	EXP 	text_4: text = 59
+239.2404 	EXP 	image: image = 'original image/pixabay_cat_004790.png'
+239.2404 	EXP 	image_2: image = 'style transformed image/pixabay_cat_004790_make_uglier.png'
+239.2404 	EXP 	text_4: autoDraw = True
+239.2404 	EXP 	image: autoDraw = True
+239.2404 	EXP 	image_2: autoDraw = True
+239.2404 	EXP 	text_5: autoDraw = True
+239.2404 	EXP 	text_6: autoDraw = True
+239.2404 	EXP 	text_8: autoDraw = True
+240.4091 	DATA 	Keypress: q
+240.4293 	EXP 	text_4: autoDraw = False
+240.4293 	EXP 	image: autoDraw = False
+240.4293 	EXP 	image_2: autoDraw = False
+240.4293 	EXP 	text_5: autoDraw = False
+240.4293 	EXP 	text_6: autoDraw = False
+240.4293 	EXP 	text_8: autoDraw = False
+240.4293 	EXP 	text_7: autoDraw = True
+243.2446 	DATA 	Keypress: space
+243.4315 	EXP 	text_7: autoDraw = False
+245.9030 	EXP 	window1: mouseVisible = True

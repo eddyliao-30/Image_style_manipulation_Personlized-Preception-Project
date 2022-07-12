@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.1.4">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1536, 864]" valType="list"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="color"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="expName" updates="None" val="validation experiment" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="Third_intro">
+      <TextComponent name="text_3">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="If you want to choose left one, please type 'Q'.&amp;#10;&amp;#10;If you want to choose right one, please type 'P'.&amp;#10;" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="1.5" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="allowedKeys" updates="constant" val="'y','n','left','right','space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="First_intro">
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Dear participants,&amp;#10;&amp;#10;Welcome!&amp;#10;&amp;#10;Please type 'space' to continue.&amp;#10;&amp;#10;" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="200" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'y','n','left','right','space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Second_intro">
+      <TextComponent name="text_2">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="For this experiment, you will make a choose between two cat images.&amp;#10;One will be the original image and the other would be a style tansformed image&amp;#10;&amp;#10;Please choosing the one you think is cuter.&amp;#10;&amp;#10;" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="1.5" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="allowedKeys" updates="constant" val="'y','n','left','right','space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Experiment">
+      <TextComponent name="text_4">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_4" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.6,0.4)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$trail_nums" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <ImageComponent name="image">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$img1" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.5, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_2">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$img2" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.5, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp_4">
+        <Param name="allowedKeys" updates="constant" val="'q','p'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_4" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_5">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.07" valType="num"/>
+        <Param name="name" updates="None" val="text_5" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.5, -0.4)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="'Q' for Left is Cuter" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_6">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_6" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.4,0.4)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="/60" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_8">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.07" valType="num"/>
+        <Param name="name" updates="None" val="text_8" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.5,-0.4)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="'P' for Right is Cuter" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="End">
+      <TextComponent name="text_7">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="Arabic" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_7" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3.0" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Thanks for your participation!" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="First_intro"/>
+    <Routine name="Second_intro"/>
+    <Routine name="Third_intro"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'trail_nums': 0, 'img1': 'original image/flickr_cat_000083.png', 'img2': 'style transformed image/flickr_cat_000083_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 1, 'img1': 'original image/flickr_cat_000227.png', 'img2': 'style transformed image/flickr_cat_000227_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 2, 'img1': 'original image/flickr_cat_000319.png', 'img2': 'style transformed image/flickr_cat_000319_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 3, 'img1': 'original image/flickr_cat_000405.png', 'img2': 'style transformed image/flickr_cat_000405_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 4, 'img1': 'original image/flickr_cat_000475.png', 'img2': 'style transformed image/flickr_cat_000475_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 5, 'img1': 'original image/flickr_cat_000483.png', 'img2': 'style transformed image/flickr_cat_000483_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 6, 'img1': 'original image/flickr_cat_000722.png', 'img2': 'style transformed image/flickr_cat_000722_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 7, 'img1': 'original image/flickr_cat_000773.png', 'img2': 'style transformed image/flickr_cat_000773_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 8, 'img1': 'original image/pixabay_cat_000029.png', 'img2': 'style transformed image/pixabay_cat_000029_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 9, 'img1': 'original image/pixabay_cat_000460.png', 'img2': 'style transformed image/pixabay_cat_000460_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 10, 'img1': 'original image/pixabay_cat_000534.png', 'img2': 'style transformed image/pixabay_cat_000534_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 11, 'img1': 'original image/pixabay_cat_000646.png', 'img2': 'style transformed image/pixabay_cat_000646_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 12, 'img1': 'original image/pixabay_cat_000714.png', 'img2': 'style transformed image/pixabay_cat_000714_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 13, 'img1': 'original image/pixabay_cat_000748.png', 'img2': 'style transformed image/pixabay_cat_000748_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 14, 'img1': 'original image/pixabay_cat_000761.png', 'img2': 'style transformed image/pixabay_cat_000761_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 15, 'img1': 'original image/pixabay_cat_001021.png', 'img2': 'style transformed image/pixabay_cat_001021_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 16, 'img1': 'original image/pixabay_cat_001092.png', 'img2': 'style transformed image/pixabay_cat_001092_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 17, 'img1': 'original image/pixabay_cat_001194.png', 'img2': 'style transformed image/pixabay_cat_001194_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 18, 'img1': 'original image/pixabay_cat_001277.png', 'img2': 'style transformed image/pixabay_cat_001277_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 19, 'img1': 'original image/pixabay_cat_001475.png', 'img2': 'style transformed image/pixabay_cat_001475_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 20, 'img1': 'original image/pixabay_cat_001522.png', 'img2': 'style transformed image/pixabay_cat_001522_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 21, 'img1': 'original image/pixabay_cat_001564.png', 'img2': 'style transformed image/pixabay_cat_001564_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 22, 'img1': 'original image/pixabay_cat_001566.png', 'img2': 'style transformed image/pixabay_cat_001566_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 23, 'img1': 'original image/pixabay_cat_001597.png', 'img2': 'style transformed image/pixabay_cat_001597_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 24, 'img1': 'original image/pixabay_cat_001735.png', 'img2': 'style transformed image/pixabay_cat_001735_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 25, 'img1': 'original image/pixabay_cat_001847.png', 'img2': 'style transformed image/pixabay_cat_001847_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 26, 'img1': 'original image/pixabay_cat_001878.png', 'img2': 'style transformed image/pixabay_cat_001878_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 27, 'img1': 'original image/pixabay_cat_002115.png', 'img2': 'style transformed image/pixabay_cat_002115_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 28, 'img1': 'original image/pixabay_cat_002448.png', 'img2': 'style transformed image/pixabay_cat_002448_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 29, 'img1': 'original image/pixabay_cat_002530.png', 'img2': 'style transformed image/pixabay_cat_002530_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 30, 'img1': 'original image/pixabay_cat_002551.png', 'img2': 'style transformed image/pixabay_cat_002551_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 31, 'img1': 'original image/pixabay_cat_002739.png', 'img2': 'style transformed image/pixabay_cat_002739_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 32, 'img1': 'original image/pixabay_cat_002743.png', 'img2': 'style transformed image/pixabay_cat_002743_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 33, 'img1': 'original image/pixabay_cat_002888.png', 'img2': 'style transformed image/pixabay_cat_002888_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 34, 'img1': 'original image/pixabay_cat_002942.png', 'img2': 'style transformed image/pixabay_cat_002942_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 35, 'img1': 'original image/pixabay_cat_002977.png', 'img2': 'style transformed image/pixabay_cat_002977_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 36, 'img1': 'original image/pixabay_cat_003075.png', 'img2': 'style transformed image/pixabay_cat_003075_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 37, 'img1': 'original image/pixabay_cat_003078.png', 'img2': 'style transformed image/pixabay_cat_003078_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 38, 'img1': 'original image/pixabay_cat_003168.png', 'img2': 'style transformed image/pixabay_cat_003168_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 39, 'img1': 'original image/pixabay_cat_003309.png', 'img2': 'style transformed image/pixabay_cat_003309_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 40, 'img1': 'original image/pixabay_cat_003502.png', 'img2': 'style transformed image/pixabay_cat_003502_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 41, 'img1': 'original image/pixabay_cat_003520.png', 'img2': 'style transformed image/pixabay_cat_003520_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 42, 'img1': 'original image/pixabay_cat_003598.png', 'img2': 'style transformed image/pixabay_cat_003598_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 43, 'img1': 'original image/pixabay_cat_003608.png', 'img2': 'style transformed image/pixabay_cat_003608_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 44, 'img1': 'original image/pixabay_cat_003705.png', 'img2': 'style transformed image/pixabay_cat_003705_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 45, 'img1': 'original image/pixabay_cat_003750.png', 'img2': 'style transformed image/pixabay_cat_003750_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 46, 'img1': 'original image/pixabay_cat_003861.png', 'img2': 'style transformed image/pixabay_cat_003861_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 47, 'img1': 'original image/pixabay_cat_003863.png', 'img2': 'style transformed image/pixabay_cat_003863_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 48, 'img1': 'original image/pixabay_cat_003950.png', 'img2': 'style transformed image/pixabay_cat_003950_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 49, 'img1': 'original image/pixabay_cat_004040.png', 'img2': 'style transformed image/pixabay_cat_004040_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 50, 'img1': 'original image/pixabay_cat_004141.png', 'img2': 'style transformed image/pixabay_cat_004141_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 51, 'img1': 'original image/pixabay_cat_004258.png', 'img2': 'style transformed image/pixabay_cat_004258_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 52, 'img1': 'original image/pixabay_cat_004319.png', 'img2': 'style transformed image/pixabay_cat_004319_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 53, 'img1': 'original image/pixabay_cat_004332.png', 'img2': 'style transformed image/pixabay_cat_004332_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 54, 'img1': 'original image/pixabay_cat_004493.png', 'img2': 'style transformed image/pixabay_cat_004493_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 55, 'img1': 'original image/pixabay_cat_004552.png', 'img2': 'style transformed image/pixabay_cat_004552_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 56, 'img1': 'original image/pixabay_cat_004555.png', 'img2': 'style transformed image/pixabay_cat_004555_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 57, 'img1': 'original image/pixabay_cat_004650.png', 'img2': 'style transformed image/pixabay_cat_004650_make_uglier.png', 'style_transformed': 'make_uglier'}, {'trail_nums': 58, 'img1': 'original image/pixabay_cat_004724.png', 'img2': 'style transformed image/pixabay_cat_004724_make_cuter.png', 'style_transformed': 'make_cuter'}, {'trail_nums': 59, 'img1': 'original image/pixabay_cat_004798.png', 'img2': 'style transformed image/pixabay_cat_004798_make_cuter.png', 'style_transformed': 'make_cuter'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Condition.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Experiment"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="End"/>
+  </Flow>
+</PsychoPy2experiment>
